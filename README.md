@@ -1,3 +1,3 @@
 # Lexer
 It looks like whatsapp
-And it's V: 1.0.0
+And it's V: 0.0.1
