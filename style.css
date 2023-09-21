@@ -1,1 +1,32 @@
-
+.clr{
+    clear: both;
+}
+.bu{
+    background-color: rgba(201, 145, 78, 0.485);
+    margin-top: 20px;
+    border: none;
+    margin-bottom: 10px;
+}
+#body{
+    background-image: url(whatsapp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: greenyellow;
+    height: 739px;
+}
+h1{
+    color: rgba(143, 70, 116, 0.758);
+    background-color: rgba(0, 255, 4, 0.866);
+    display: inline;
+    float: left;
+}
+h2{
+    color: rgba(143, 70, 116, 0.758);
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline;
+    float: right;
+}
+span{
+    color: rgba(86, 92, 19, 0.951);
+}
