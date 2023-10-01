@@ -1,1 +1,15 @@
-
+#body{
+    text-align: center;
+    text-transform: capitalize;
+    height: 739px;
+    background-color: rgba(41, 136, 36, 0.464);
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: chocolate;
+}
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
