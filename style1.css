@@ -41,3 +41,9 @@ span{
     background-color: #3c48778d;
     padding: 5px;
 }
+.p1{
+    float: left;
+}
+.p2{
+    float: right;
+}
