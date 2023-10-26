@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
     <link rel="icon" href="Icon.png">
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>
         Lexer-Talking
     </title>
@@ -21,24 +21,34 @@
             </div>
         </nav>
         <div class="clr"></div>
-        <br>
-        <div class="p1 sm-2 md-4 lg-6 xl-12">
-            <span id="p1"></span>
-            <br>
-            <input id="i1" type="text" class="in all">
-            <button id="b1" class="bu all" onclick="p1(i1.value)">enter</button>
-        </div>
-        <div class="p2 sm-2 md-4 lg-6 xl-12">
-            <span id="p2"></span>
-            <br>
-            <input type="text" id="i2" class="in all">
-            <button id="b2" class="bu all" onclick="p2(i2.value)">enter</button>
-        </div>
-        <div class="clr"></div>    
-    </div>
+
+       <div class="con">
+      
+            <div class="left">
+                <div class="position-fixed">
+                <input type="text" id="msg1">
+                <button onclick="p1(msg1.value)">Enter</button>
+                <h1 id="p1"></h1>
+                </div>
+                 <br>
+                    <h3 class="text1"></h3>
+                    <h3 class="text2"></h3>
+            </div>
+            <div class="right">
+                <div class="position-fixed">
+                <input type="text" id="msg2">
+                <button onclick="p2(msg2.value)">Enter</button>
+                <h1 id="p2"></h1>
+                </div>
+                <br>
+                <h3 class="text2"></h3>
+                <h3 class="text1"></h3>
+            </div>   
+       </div> 
+
     <script src="script1.js"></script>
-    <script src="jquery.slim.min.js"></script>
-    <script src="popper.min.js"></script>
-    <script src="bootstrap.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
