@@ -1,11 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
 .clr{
     clear: both;
+ }
+nav{
+    background-color: rgba(55, 139, 97, 0.516);
 }
-.bu{
-    background-color: rgba(201, 145, 78, 0.485);
-    margin-top: 20px;
+.r{
+    float: right;
+    width: 98%;
+}
+.l{
+    float: left;
+}
+button{
     border: none;
-    margin-bottom: 10px;
+    border-radius: 100%;
+}
+h1{
+    margin-left: 190px;
+    color: #a29;
 }
 #body{
     background-image: url(whatsapp.png);
@@ -15,35 +31,31 @@
     height: 9999px;
     text-transform: capitalize;
 }
-h1{
-    color: rgba(143, 70, 116, 0.758);
-    background-color: rgba(0, 255, 4, 0.866);
-    display: inline;
+.left{
     float: left;
+    width: 20%;
+    
 }
-h2{
-    color: rgba(143, 70, 116, 0.758);
-    background-color: rgba(255, 255, 255, 0.8);
-    display: inline;
+.right{
     float: right;
+    width: 20%;
+    text-align: right;  
+   
 }
-span{
-    color: rgba(86, 92, 19, 0.951);
+.con{
+   
+    margin: 50px;
 }
-.r{
-    float: right;
-}
-.l{
+.text1{
     float: left;
-    margin-left: 1450px;
+    text-align: left;
+    color: red;
 }
-.nav{
-    background-color: #3c48778d;
-    padding: 5px;
-}
-.p1{
-    float: left;
-}
-.p2{
+.text2{
     float: right;
+    text-align: right;
+    color: blue;
+}
+.position-fixed{
+    bottom: 2px;
 }
