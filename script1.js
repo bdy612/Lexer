@@ -1,3 +1,4 @@
+
 document.getElementById("p1").innerHTML=localStorage.getItem("p1")
 document.getElementById("p2").innerHTML=localStorage.getItem("p2")
 function p1(send){
@@ -9,17 +10,17 @@ function p2(send){
     document.getElementsByClassName("text2")[0].innerHTML+=send+"<br>";
     document.getElementsByClassName("text1")[1].innerHTML+=send+"<br>";
 }
-document.getElementsByClassName('ent')[0];
+document.getElementById('ent1');
     addEventListener('keyup', function(event) {
         event.preventDefault();
-        if (event.keyCode === 13) {
-            document.getElementsByClassName('ent')[0].click();
+        if (event.keyCode === 97) {
+            document.getElementById('ent1').click();
     	}
     });
-    document.getElementsByClassName('ent')[1];
+    document.getElementById('ent2');
     addEventListener('keyup', function(event) {
         event.preventDefault();
-        if (event.keyCode === 13) {
-            document.getElementsByClassName('ent')[1].click();
+        if (event.keyCode === 98) {
+            document.getElementById('ent2').click();
     	}
     });
